@@ -4,6 +4,11 @@
     <input v-model="kilometers" type="number" placeholder="Ingresa kilómetros" />
     <p :style="{ color: textColor }">Metros: {{ meters }}</p>
     <p :style="{ color: textColor }">Millas: {{ miles }}</p>
+
+    <p>Respuestas:
+      1: c, 2: b, 3: c, 4: a, 5: b, c
+    </p>
+
   </div>
 </template>
 
